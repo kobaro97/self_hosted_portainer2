@@ -22,7 +22,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/htpcmanager:latest",
@@ -59,7 +59,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/jackett:latest",
@@ -104,7 +104,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/booksonic:latest",
@@ -146,7 +146,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/smokeping:latest",
@@ -196,7 +196,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/duckdns:latest",
@@ -224,7 +224,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/webgrabplus:latest",
@@ -266,7 +266,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/domoticz:latest",
@@ -304,7 +304,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/transmission:latest",
@@ -353,7 +353,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/libresonic:latest",
@@ -402,7 +402,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/sickchill:latest",
@@ -456,7 +456,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/musicbrainz:latest",
@@ -495,7 +495,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/quassel-core:latest",
@@ -531,7 +531,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/photoshow:latest",
@@ -573,7 +573,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/daapd:latest",
@@ -648,7 +648,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/codiad:latest",
@@ -684,7 +684,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/oscam:latest",
@@ -721,7 +721,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/kodi-headless:latest",
@@ -759,7 +759,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/pydio:latest",
@@ -798,7 +798,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/sabnzbd:latest",
@@ -842,7 +842,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/medusa:latest",
@@ -886,7 +886,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/heimdall:latest",
@@ -926,7 +926,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/syncthing:latest",
@@ -970,7 +970,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/muximux:latest",
@@ -1006,7 +1006,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/beets:latest",
@@ -1054,7 +1054,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/mariadb:latest",
@@ -1090,7 +1090,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/znc:latest",
@@ -1127,7 +1127,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/cops:latest",
@@ -1166,7 +1166,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/thelounge:latest",
@@ -1202,7 +1202,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/nzbget:latest",
@@ -1244,7 +1244,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/ombi:latest",
@@ -1283,7 +1283,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/lychee:latest",
@@ -1327,7 +1327,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/deluge:latest",
@@ -1364,7 +1364,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/nginx:latest",
@@ -1427,7 +1427,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/lidarr:latest",
@@ -1470,7 +1470,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/unifi-controller:latest",
@@ -1514,7 +1514,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/calibre-web:latest",
@@ -1560,7 +1560,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/plex:latest",
@@ -1593,7 +1593,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/headphones:latest",
@@ -1635,7 +1635,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/qbittorrent:latest",
@@ -1677,7 +1677,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/couchpotato:latest",
@@ -1755,7 +1755,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/freshrss:latest",
@@ -1796,7 +1796,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/openvpn-as:latest",
@@ -1835,7 +1835,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/mylar:latest",
@@ -1879,7 +1879,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/hydra2:latest",
@@ -1921,7 +1921,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/projectsend:latest",
@@ -1960,7 +1960,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/minetest:latest",
@@ -1997,7 +1997,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/tvheadend:latest",
@@ -2041,7 +2041,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/duplicati:latest",
@@ -2089,7 +2089,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/resilio-sync:latest",
@@ -2133,7 +2133,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/radarr:latest",
@@ -2175,7 +2175,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/piwigo:latest",
@@ -2217,7 +2217,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/ubooquity:latest",
@@ -2260,7 +2260,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/lazylibrarian:latest",
@@ -2312,7 +2312,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/airsonic:latest",
@@ -2396,7 +2396,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/letsencrypt:latest",
@@ -2434,7 +2434,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/sonarr:latest",
@@ -2480,7 +2480,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/tautulli:latest",
@@ -2519,7 +2519,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/rutorrent:latest",
@@ -2564,7 +2564,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/nextcloud:latest",
@@ -2605,7 +2605,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "linuxserver/minisatip:latest",
@@ -2639,7 +2639,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "organizrtools/organizr:latest",
@@ -2702,7 +2702,7 @@
 				{
 					"label": "TZ",
 					"name": "TZ",
-					"set": "America/Chicago"
+					"set": "Europe/Brussels"
 				}
 			],
 			"image": "nmtan/chevereto:latest",
