@@ -2690,6 +2690,34 @@
 			]
 		},
 		{
+    		"type": 1,
+    		"title": "Homer",
+    		"name": "homer",
+    		"description": "A dead simple static HOMepage for your servER to keep your s ervices on hand, from a simple yaml configuration file.",
+    		"note": "This container requires a yml file within the config volume. See the documentation here https://github.com/bastienwirtz/homer",
+    		"logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/homer.png",
+    		"image": "b4bz/homer:latest",
+    		"categories": [
+      			"Other",
+      			"Tools"
+    		],
+    		"platform": "linux",
+    		"restart_policy": "unless-stopped",
+    		"ports": [
+      			"8902:8080/tcp"
+    		],
+    		"volumes": [
+      			{
+        			"container": "/www/assets",
+        			"bind": "/portainer/Files/AppData/Config/Homer/assets"
+      			},
+      			{
+        			"container": "/www/config.yml",
+        			"bind": "/portainer/Files/AppData/Config/Homer"
+      			}
+    		]
+  		},
+		{
 			"category": [
 				"Other",
 				"Tools",
