@@ -1450,6 +1450,39 @@
 				}
 			]
 		},
+
+		  {
+    		"type": 1,
+    		"title": "Pi-Hole",
+    		"name": "pihole",
+    		"description": "A Linux network-level advertisement and Internet tracker blocking application which acts as a DNS sinkhole.",
+    		"logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/pihole.png",
+    		"image": "pihole/pihole:latest",
+    		"categories": [
+      			"Other",
+      			"Tools"
+    		],
+    		"platform": "linux",
+    		"restart_policy": "unless-stopped",
+    		"ports": [
+      			"53:53/tcp",
+      			"53:53/udp",
+      			"67:67/udp",
+      			"1010:80/tcp",
+      			"4443:443/tcp"
+    		],
+    		"volumes": [
+      			{
+        			"container": "/etc/pihole",
+        			"bind": "/portainer/Files/AppData/Config/PiHole"
+      			},
+      			{
+        			"container": "/etc/dnsmasq.d",
+        			"bind": "/portainer/Files/AppData/Config/PiHole/DNS"
+      			}
+    		],
+    "note": "When the installation is complete, navigate to your.ip.goes.here:1010/admin. Follow the article <a href='https://medium.com/@niktrix/getting-rid-of-systemd-resolved-consuming-port-53-605f0234f32f'>here</a> if you run into issues binding to port 53."
+  		},
 		{
 			"category": [
 				"Management",
@@ -2018,6 +2051,34 @@
 				}
 			]
 		},
+		  {
+    		"type": 1,
+    		"title": "Homer",
+    		"name": "homer",
+    		"description": "A dead simple static HOMepage for your servER to keep your s ervices on hand, from a simple yaml configuration file.",
+    		"note": "This container requires a yml file within the config volume. See the documentation here https://github.com/bastienwirtz/homer",
+    		"logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/homer.png",
+    		"image": "b4bz/homer:latest",
+    		"categories": [
+      			"Other",
+      			"Tools"
+    		],
+    		"platform": "linux",
+    		"restart_policy": "unless-stopped",
+    		"ports": [
+      			"8902:8080/tcp"
+    		],
+    		"volumes": [
+      			{
+        			"container": "/www/assets",
+        			"bind": "/portainer/Files/AppData/Config/Homer/assets"
+      			},
+      			{
+        			"container": "/www/config.yml",
+        			"bind": "/portainer/Files/AppData/Config/Homer"
+      			}
+    		]
+  		},
 		{
 			"category": [
 				"Backup:",
@@ -2656,6 +2717,106 @@
 				}
 			]
 		},
+		{
+    		"type": 1,
+    		"title": "YouTubeDL-Material",
+    		"name": "youtubedl-material",
+    		"description": "YoutubeDL-Material is a Material Design frontend for youtube-dl. It's coded using Angular 9 for the frontend, and Node.js on the backend.",
+    		"logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/ytdlm.png",
+    		"image": "tzahi12345/youtubedl-material:latest",
+    		"categories": [
+      			"Other",
+      			"Downloaders"
+    		],
+    		"platform": "linux",
+    		"restart_policy": "unless-stopped",
+    		"ports": [
+      			"17442:17442/tcp"
+    		],
+    		"volumes": [
+      			{
+        			"container": "/app/appdata",
+        			"bind": "/portainer/Files/AppData/Config/YTDLM"
+      			},
+      			{
+        			"container": "/app/video",
+        			"bind": "/portainer/Files/AppData/Youtube/Video"
+      			},
+      			{
+        			"container": "/app/subscriptions",
+        			"bind": "/portainer/Files/AppData/Youtube/Subscriptions"
+      			},
+      			{
+        			"container": "/app/users",
+        			"bind": "/portainer/Files/AppData/Youtube/Users"
+      			},
+      			{
+        			"container": "/app/audio",
+        			"bind": "/portainer/Files/AppData/Youtube/Audio"
+      			}
+    		]
+  		},
+  		{
+    		"type": 1,
+    		"title": "UniFi Video",
+    		"name": "UniFi Video",
+    		"description": "UniFi Video is a powerful and flexible, integrated IP video management surveillance system designed to work with Ubiquiti’s UniFi Video Camera product line. UniFi Video has an intuitive, configurable, and feature‑packed user interface with advanced features such as motion detection, auto‑discovery, user‑level security, storage management, reporting, and mobile device support.",
+    		"logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/UniFiVideo-logo.png",
+    		"image": "pducharme/unifi-video-controller:latest",
+    		"categories": [
+      			"CCTV"
+    		],
+    		"platform": "linux",
+    		"restart_policy": "unless-stopped",
+    		"ports": [
+      			"1935:1935/tcp",
+      			"7444:7444/tcp",
+      			"7447:7447/tcp",
+      			"6666:6666/tcp",
+      			"7442:7442/tcp",
+      			"7080:7080/tcp",
+      			"7443:7443/tcp",
+      			"7445:7445/tcp",
+      			"7446:7446/tcp"
+    		],
+    		"volumes": [
+      			{
+        			"container": "/recordings",
+        			"bind": "/portainer/Files/AppData/Config/UnifFiVideo/Recordings/"
+      			},
+      			{
+        			"container": "/config",
+        			"bind": "/portainer/Files/AppData/Config/UniFiVideo/"
+      			}
+    		],
+    		"env": [
+      			{
+        			"name": "PUID",
+        			"label": "PUID",
+        			"default": "99"
+      			},
+      			{
+        			"name": "PGID",
+        			"label": "PGID",
+        			"default": "100"
+      			},
+      			{
+        			"name": "UMASK",
+        			"label": "UMASK",
+        			"default": "002"
+      			},
+      			{
+        			"name": "CONTEXT_PATH",
+        			"label": "CONTEXT_PATH",
+        			"set": "UniFi Video"
+      			},
+      			{
+      				"label": "TZ"
+      				"name": "TZ"
+      				"set": "Europe/Brussels"
+      			}
+    		]
+  		},
 		{
 			"category": [
 				"Other",
