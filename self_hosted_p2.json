@@ -2810,11 +2810,6 @@
         			"label": "CONTEXT_PATH",
         			"set": "UniFi Video"
       			},
-      			{
-      				"label": "TZ"
-      				"name": "TZ"
-      				"set": "Europe/Brussels"
-      			}
     		]
   		},
 		{
