@@ -6,8 +6,17 @@ type="ssh-simulator"
 credentials=["root:root", "root:seppe"]
 
 [[port]]
-port=["tcp/8022"]
+ports=["tcp/8022", "tcp/8023"]
 services=["ssh-simulator"]
+
+[service.telnet]
+type="telnet"
+image="/data/screenshot-20171030174349.png"
+server-name="WS-3244"
+
+[[port]]
+port="tcp/5900"
+services=["telnet"]
 
 [channel.console]
 type="console"
@@ -16,5 +25,5 @@ type="console"
 channel=["console"]
 
 [[logging]]
-output="stdout"
-level="debug"
+output = "stdout"
+level = "debug"
